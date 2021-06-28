@@ -9,8 +9,8 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
-  color: #444444;
+  font-family: "標楷體", "Open Sans", sans-serif;
+  color: #454545;
 }
 
 a {
@@ -114,6 +114,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.5s;
   z-index: 997;
   padding: 15px 0;
+  background-color: rgba(40, 40, 60, 0.8);
 }
 
 #header.header-scrolled, #header.header-inner-pages {
@@ -121,13 +122,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo {
+  font-family: "標楷體";
   font-size: 30px;
   margin: 0;
   padding: 0;
   line-height: 1;
-  font-weight: 500;
-  letter-spacing: 2px;
-  text-transform: uppercase;
+  font-weight: bold;
 }
 
 #header .logo a {
@@ -179,7 +179,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: #47b2e4;
+  color: #62c2ee;
 }
 
 .navbar .getstarted {
@@ -370,8 +370,10 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 80vh;
-  background: #37517e;
+  height: 100vh;
+  background: url("../media1/image1.png") no-repeat center bottom;
+  background-size: cover;
+  /* background: #37517e; */
 }
 
 #hero .container {
@@ -380,16 +382,19 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero h1 {
   margin: 0 0 10px 0;
-  font-size: 48px;
+  font-size: 70px;
   font-weight: 700;
   line-height: 56px;
-  color: #fff;
+  color: #404040;
+  font-family: "標楷體";
 }
 
 #hero h2 {
-  color: rgba(255, 255, 255, 0.6);
-  margin-bottom: 50px;
-  font-size: 24px;
+  color: rgba(58, 58, 58, 1);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 54px;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 #hero .btn-get-started {
@@ -402,7 +407,7 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 50px;
   transition: 0.5s;
   margin: 10px 0 0 0;
-  color: #fff;
+  color: #37517e;
   background: #47b2e4;
 }
 
@@ -416,13 +421,13 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
   transition: 0.5s;
   margin: 10px 0 0 25px;
-  color: #fff;
+  color: #37517e;
   line-height: 1;
 }
 
 #hero .btn-watch-video i {
   line-height: 0;
-  color: #fff;
+  color: #37517e;
   font-size: 32px;
   transition: 0.3s;
   margin-right: 8px;
