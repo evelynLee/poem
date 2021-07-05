@@ -325,7 +325,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .navbar-mobile a {
   padding: 10px 20px;
-  font-size: 15px;
+  font-size: 20px;
   color: #37517e;
 }
 
@@ -1144,7 +1144,7 @@ section {
     width: 25%;
 }
   .bg-paint3 {
-    background-size: 33%;
+    background-size: 26%;
   }
 }
 
