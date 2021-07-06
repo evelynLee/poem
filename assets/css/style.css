@@ -483,7 +483,7 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0rem 2rem;
   }
   #hero h2 {
-    font-size: 32px;
+    font-size: 30px;
     line-height: 56px;
     border-radius: 50px;
     background: rgba(255, 255, 255, 0.6);
@@ -500,7 +500,7 @@ h1, h2, h3, h4, h5, h6 {
   #hero {
     width: 100%;
     height: 100vh;
-    background: url("../media1/image1.png") no-repeat left bottom;
+    background: url("../media1/image1.png") no-repeat -220px bottom;
     background-size: cover;
   }
 }
@@ -1109,6 +1109,7 @@ section {
   text-align: center;
   margin-top: 1rem;
   margin-bottom: 2rem;
+  border-radius: 10px;
 }
 
 .services .icon-box .cloud {
@@ -1134,6 +1135,7 @@ section {
 .services .icon-box h4, .services .icon-box2 h4 {
   font-family: "cwtexkai";
   font-weight: 500;
+  margin-top: 15px;
   margin-bottom: 15px;
   font-size: 24px;
 }
@@ -1149,12 +1151,21 @@ section {
   margin-bottom: 0;
 }
 
-.services .icon-box:hover, .services .icon-box2:hover {
+.services .icon-box:hover {
   transform: translateY(-10px);
 }
 
-.services .icon-box:hover h4 a, .services .icon-box2:hover h4 a {
+.services .icon-box:hover h4 a {
   color: #47b2e4;
+}
+
+.services .icon-box2:hover {
+  transform: translateY(-10px);
+  background-color: #2692d1;
+}
+
+.services .icon-box2:hover h4 a {
+  color: #fff;
 }
 
 @media (max-width: 1024px) {
