@@ -657,6 +657,15 @@ section {
   .section-title h2 {
     font-size: 24px;
   }
+  .mt-xs-0 {
+    margin-top: 0rem !important;
+  }
+  .mb-xs-0 {
+    margin-bottom: 0rem !important;
+  }
+  .d-xs-none {
+    display: none;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -778,9 +787,6 @@ section {
   }
   .about .w-300 {
     width: 300px;
-  }
-  .mt-xs-0 {
-    margin-top: 0rem !important;
   }
 }
 
@@ -1181,6 +1187,9 @@ section {
 }
   .bg-paint3 {
     background-size: 33%;
+  }
+  .services .icon-box2 {
+    margin-bottom: 0.5rem;
   }
 }
 
