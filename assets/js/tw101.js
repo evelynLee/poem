@@ -1,3 +1,7 @@
+function autoAudio(vid) {
+	
+}
+
 function playAudio(vid) {
 	$('audio').each(function(){
 		this.pause();
