@@ -1620,43 +1620,43 @@ section {
 
   .towers {
     position: relative;
-    width: 330px;
+    width: 310px;
     height: 200px;
     margin: 0 auto;
   }
   
   .tower1 {
     width: 63px;
-    top: 13%;
-    left: 71px;
+    top: 14%;
+    left: 67px;
   }
   
   .tower2 {
     width: 71px;
-    top: 8%;
-    right: 76px;
+    top: 9%;
+    right: 72px;
   }
   
   .tower3 {
     width: 81px;
-    bottom: 1%;
-    left: 59px;
+    bottom: 2%;
+    left: 56px;
   }
   
   .tower4 {
     width: 64px;
-    bottom: 13%;
-    right: 70px;
+    bottom: 15%;
+    right: 66px;
   }
   
   .tower5 {
     width: 72px;
     top: 41%;
-    left: 124px;
+    left: 119px;
   }
   
   .tower1 h4, .tower2 h4, .tower3 h4, .tower4 h4 {
-    font-size: 1rem;
+    font-size: 0.99rem;
   }
 
   .tower5 h4 {
