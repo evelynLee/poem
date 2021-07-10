@@ -835,6 +835,10 @@ section {
     width: 100%;
   }
 
+  .section-title h5 {
+    text-align: left !important;
+  }
+
   .section-title h2 {
     font-size: 24px;
   }
