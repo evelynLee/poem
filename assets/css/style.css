@@ -16,8 +16,8 @@ a {
 a:hover {
   color: #353535;
   text-decoration: none;
-  border-bottom: 2px solid #353535;
-  padding-bottom: 2px;
+  /* border-bottom: 2px solid #353535;
+  padding-bottom: 2px; */
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -132,7 +132,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo img {
-  max-height: 60px;
+  max-height: 50px;
   background: #ffffff;
   padding: 5px 10px;
   border-radius: 8px;
@@ -384,6 +384,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .bg-2 {
+  z-index: 1;
   background: url(../media2/image1.jpg) no-repeat center bottom;
   background-size: cover;
   height: 350px;
@@ -404,7 +405,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero h1 {
   margin: 0 0 5px 0;
-  font-size: 34px;
+  font-size: 43px;
   font-weight: 700;
   line-height: 56px;
   color: #404040;
@@ -415,11 +416,12 @@ h1, h2, h3, h4, h5, h6 {
   color: rgba(58, 58, 58, 1);
   margin-top: 10px;
   margin-bottom: 10px;
-  font-size: 25px;
+  font-size: 34px;
   font-family: 'Times New Roman', Times, serif;
 }
 
 #hero .btn-get-started {
+  z-index: 999;
   font-family: "cwtexkai", sans-serif;
   font-weight: 500;
   font-size: 20px;
@@ -544,15 +546,16 @@ h1, h2, h3, h4, h5, h6 {
   #hero .hero-img img {
     width: 80%;
   }
-  #hero .btn-get-started {
-    font-size: 20px;
-    padding: 10px 24px 11px 24px;
-  }
+  
   #hero {
     width: 100%;
     height: 100vh;
     background: url("../img/bg-paint.jpg") no-repeat center bottom;
     background-size: cover;
+  }
+
+  h5 {
+    font-size: 85%;
   }
 }
 
@@ -694,6 +697,10 @@ section {
 
 .mt-6 {
   margin-top: 5rem;
+}
+
+.h-200 {
+  height: 200px;
 }
 
 @media (max-width: 575px) {
