@@ -778,10 +778,10 @@ section {
   .about .ms-auto {
     margin-left: 3rem !important;
   }
-  .about .md-m-auto {
-    margin-right: auto !important;
-    margin-left: auto !important;
-  }
+  /*.about .md-m-auto {
+     margin-right: auto !important;
+    margin-left: auto !important; 
+  }*/
   .about .me-5 {
     margin-right: 0rem !important;
   }
