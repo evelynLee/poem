@@ -4,7 +4,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "cwtexkai", "Open Sans", sans-serif;
+  font-family: "cwtexkai", 'Times New Roman', sans-serif;
   color: #454545;
 }
 
@@ -428,7 +428,7 @@ h6 {
 
 #hero .btn-get-started,
 .btn-get-started {
-  font-family: "cwtexkai", sans-serif;
+  font-family: "cwtexkai", 'Times New Roman';
   font-weight: 500;
   font-size: 24px;
   letter-spacing: 1px;
@@ -681,11 +681,11 @@ section {
 }
 
 .font-tw {
-  font-family: "cwtexkai", sans-serif;
+  font-family: "cwtexkai", 'Times New Roman';
 }
 
 .btn-sound {
-  font-family: "cwtexkai", sans-serif;
+  font-family: "cwtexkai", 'Times New Roman';
   font-weight: 500;
   font-size: 20px;
   letter-spacing: 1px;
@@ -1269,7 +1269,7 @@ section {
   font-weight: bold;
   font-size: 31px;
   color: #454545;
-  font-family: "cwtexkai", sans-serif;
+  font-family: "cwtexkai", 'Times New Roman';
 }
 
 .skills .content ul {
