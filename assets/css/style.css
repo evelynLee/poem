@@ -471,6 +471,16 @@ h1, h2, h3, h4, h5, h6 {
     height: 100vh;
     text-align: center;
   }
+  
+  #hero h1 {
+    font-size: 34px;
+    line-height: 40px;
+  }
+  #hero h2 {
+    font-size: 25px;
+    line-height: 30px;
+    margin-bottom: 10px;
+  }
   .animated {
     -webkit-animation: none;
     animation: none;
@@ -490,15 +500,6 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0 auto 1rem;
   }
 
-  #hero h1 {
-    font-size: 34px;
-    line-height: 40px;
-  }
-  #hero h2 {
-    font-size: 25px;
-    line-height: 30px;
-    margin-bottom: 10px;
-  }
   #hero .hero-img img {
     width: 70%;
   }
