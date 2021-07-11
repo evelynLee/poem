@@ -791,6 +791,11 @@ section {
 }
 
 @media (max-width: 992px) {
+
+  .t-align-l {
+    text-align: left !important;
+}
+
   .border-l-orange {
     margin-left: 3rem;
     margin-top: 7.5rem;
@@ -822,6 +827,10 @@ section {
   .ms-sm-auto {
     margin-left: auto;
   }
+
+  .t-align-l {
+    text-align: left !important;
+}
 }
 
 @media (max-width: 575px) {
@@ -835,7 +844,7 @@ section {
     width: 100%;
   }
 
-  .section-title h5 {
+  .t-align-l {
     text-align: left !important;
   }
 
