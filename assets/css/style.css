@@ -385,7 +385,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .bg-2 {
   z-index: 1;
-  background: url(../media2/image1.jpg) no-repeat center bottom;
+  background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(224, 224, 224, 0.3)), url(../media2/image1.jpg) no-repeat center bottom;
   background-size: cover;
   height: 300px;
 }
