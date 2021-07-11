@@ -1283,11 +1283,11 @@ section {
 }
 
 .author-img1 {
-  height: 200px;
+  height: 190px;
 }
 
 .author-img2 {
-  height: 200px;
+  height: 190px;
 }
 
 .table-rounded {
@@ -1597,6 +1597,16 @@ section {
 }
 
 @media (max-width: 575px) {
+
+  .author-img1 {
+    width: 245px;
+    height: 100%;
+  }
+  
+  .author-img2 {
+    width: 100px;
+    height: 100%;
+  }
 
   .skills .content h3 {
     font-size: 30px;
