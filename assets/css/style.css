@@ -471,7 +471,7 @@ h1, h2, h3, h4, h5, h6 {
     height: 100vh;
     text-align: center;
   }
-  
+
   #hero h1 {
     font-size: 34px;
     line-height: 40px;
@@ -496,7 +496,7 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 768px) {
 
   .table-rounded2 {
-    width: 90%;
+    width: 45%;
     margin: 0 auto 1rem;
   }
 
