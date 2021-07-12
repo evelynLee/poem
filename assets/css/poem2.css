@@ -1804,6 +1804,56 @@ section {
   color: #fff;
 }
 
+.game1, .game2, .game3, .game4 {
+  border-radius: 15px;
+  padding: 22px 40px 22px 70px;
+  position: relative;
+  margin-left: 60px;
+}
+
+.game1 {
+  border:2px solid #5b9bd5;
+}
+
+.game2 {
+  border:2px solid #ed7d31;
+}
+
+.game3 {
+  border:2px solid #ffc000;
+}
+
+.game4 {
+  border:2px solid #ff99cc;
+}
+
+.btn-radio1 {
+  border: 0;
+  z-index: 9;
+  position: absolute;
+  margin-top: 17px;
+}
+
+.btn-radio1 img {
+  width: 70%;
+}
+
+.answer {
+  height: 150px;
+  z-index: 99;
+  width: 145px;
+  background: url(../media2/image21.png) no-repeat left top;
+  background-size: 110%;
+  text-align: center;
+  line-height: 10px;
+  padding: 15px 0px 0 0;
+  display: none;
+}
+
+.answer a:hover {
+  border-bottom: 1px solid #263e68;
+}
+
 @media (max-width: 1024px) {
   .bg-paint3 {
     background-size: 35%;
