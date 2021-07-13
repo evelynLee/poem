@@ -1807,7 +1807,7 @@ section {
 
 .game1, .game2, .game3, .game4 {
   border-radius: 15px;
-  padding: 22px 40px 22px 70px;
+  padding: 22px 40px 22px 60px;
   position: relative;
   margin-left: 60px;
 }
@@ -1887,6 +1887,10 @@ section {
   .bg-paint3 {
     background-size: 33%;
   }
+
+  .answer2 {
+    width: 100%;
+  }
 }
 
 @media (max-width: 768px) {
@@ -1925,12 +1929,18 @@ section {
   }
 
   .btn-radio2 {
-    width: 130%;
+    width: 110%;
     margin-top: 0;
   }
 
   .btn-radio2 img {
     width: 50%;
+  }
+
+  .answer {
+    background: url(../media2/image21.png) no-repeat left 6px;
+    background-size: 120%;
+    padding:15px 0 0 10px;
   }
 
   .answer2 {
